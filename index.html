@@ -1,11 +1,662 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Siemens Digital Services</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="C:\Users\GEC_LAB\Desktop\SiemensGEC/styles/site.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title></title>
-    </head>
-    <body>
-        
-    </body>
+    
+
+    <!--[if lt IE 9]>
+      <script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- begin usabilla live embed code -->
+    <script type="text/javascript">
+    /*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+    window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/3a1b56443563.js");
+
+    /*]]>{/literal}*/
+    //Hide Usabilla Default buttons
+    window.usabilla_live("hide");
+  </script>
+    <!-- end usabilla live embed code -->
+
+    <!-- begin WhatFix live embed code -->
+    <script language='javascript'>
+      window._wfx_settings={"ent_id":"02818360-707b-11e7-8ce1-04013d24cf02"};
+      window._wfx_widget = {"target": "#wf-integrated-button"};
+    </script>
+    <script language='javascript' async='true' type='text/javascript' src='//whatfix.com/embed/embed.nocache.js'></script>
+    <!-- end WhatFix live embed code -->
+
+    <!-- begin hotjar analytics tracking code -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:551247,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- end hotjar analytics tracking code -->
+
+    <!-- begin Google Analytics code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-104832907-6', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+    </script>
+    <!-- end Google Analytics code -->
+  </head>
+  <body>
+    <div id="help-center">
+      <button class="btn help-center-btn" type="button" ><img class="help-center-icon" src="/images/helpicon-help.svg" alt="help"><span class="dropdown-text">Help Center</span></button>
+      <div class="help-center-container">
+        <div class="help-center-content">
+          <p class="help-center-support">What do you need support with?</p>
+            <ul class="help-center-ul">
+              <li ><a href=https://case-bucket.mindsphere.siemens.com/auth/issue/create target="_blank" class="help-center-li" style="text-decoration:none;"><img class="help-center-icon" src="/images/helpicon-issue.svg" alt="issue">Create Case</a></li>
+              <li ><a href=https://case-bucket.mindsphere.siemens.com/auth/issues target="_blank" class="help-center-li" style="text-decoration:none;"><img class="help-center-icon" src="/images/helpicon-walkthrough.svg" alt="issue">Case Dashboard</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div id="site-wrapper">
+      <div id="site-body">
+        <div id="mobileNav">
+          <div class="text-center">
+            <img alt='Siemens' class="logo" src='/images/Siemens-logo-white.svg' />
+            <img alt='Ingenuity For life' class='logo' src='/images/ingenuity-white.png' />
+          </div>
+          <ul class="nav navbar-nav ">
+              <li >
+                <a href="/internal/home" onClick="ga('send', 'event', 'Link', 'Click', 'M-Home')">Home</a>
+              </li>
+              
+              <li >
+                <a href="/internal/sales_kit" onClick="ga('send', 'event', 'Link', 'Click', 'M-Sales Enablement')">Sales Enablement</a>
+              </li>
+              
+              <li class="active">
+                <a href="/internal/products" onClick="ga('send', 'event', 'Link', 'Click', 'M-Products')">Products</a>
+              </li>
+              
+              <li >
+                <a href="/internal/initiatives" onClick="ga('send', 'event', 'Link', 'Click', 'M-Initiatives')">Initiatives</a>
+              </li>
+              
+              <li >
+                <a href="/internal/digmap" onClick="ga('send', 'event', 'Link', 'Click', 'M-DIG Learning Map')">DIG Learning Map</a>
+              </li>
+              
+              <li class='mobileNav_demo'>
+                <a class='inline-block' href="/home/internal/demos" onClick="ga('send', 'event', 'Link', 'Click', 'MDL')">
+                  <span>Demo Launcher</span>
+                  <img alt='Open' class='mobileNav_demo_icon inline-block' src='/images/open-in-browser-white.svg' />
+                </a>
+              </li>
+          </ul>
+        </div>
+        <div id="header" class='headerNormal header'>
+          <div class="container-fluid">
+            <div role="navigation" class="navbar navbar-default">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle toggle-nav" class="" id="hamburgerMenu">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar icon-bar_top"></span>
+                  <span class="icon-bar icon-bar_middle"></span>
+                  <span class="icon-bar icon-bar_bottom"></span>
+                </button>
+                <a href="/internal/home" class="navbar-brand">
+                  <img alt='Siemens' class="logo" src='/images/Siemens-logo-blue.svg' />
+                  <img alt='Ingenuity For life' class='logo logoUnder' src='/images/ingenuity-for-life.png' />
+                </a>
+              </div>
+              <div class="text-right hideOnXs internalToggle" onclick="window.location.assign('/home')">
+                <span class="toggleText active">Confidential Internal View</span>
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round internal-btn"></span>
+                </label>
+                <span class="toggleText ">External Customer View</span>
+
+                <!-- GOOGLE ANALYTICS CODE
+                    onClick="ga('send', 'event', 'Link', 'Click', 'IET', 'goInternal');">Internal View</a>
+                    onClick="ga('send', 'event', 'Link', 'Click', 'IET', 'goExternal')">Customer-Facing View</a>
+                  -->
+              </div>
+              <div class="hideOnXs">
+                <ul class="nav navbar-nav navbar-right pull-right">
+                    <li >
+                      <a href="/internal/home" onClick="ga('send', 'event', 'Link', 'Click', 'Home')">Home</a>
+                    </li>
+                    <li >
+                      <a href="/internal/sales_kit" onClick="ga('send', 'event', 'Link', 'Click', 'Sales Enablement')">Sales Enablement</a>
+                    </li>
+                    <li class="active">
+                      <a href="/internal/products" onClick="ga('send', 'event', 'Link', 'Click', 'Products')">Products</a>
+                    </li>
+                    <li >
+                      <a href="/internal/initiatives" onClick="ga('send', 'event', 'Link', 'Click', 'Initiatives')">Initiatives</a>
+                    </li>
+                    <li >
+                      <a href="/internal/digmap" onClick="ga('send', 'event', 'Link', 'Click', 'DIG Learning Map')">DIG Learning Map</a>
+                    </li>
+                    <li>
+                      <a class='inline-block' href="/internal/demos" onClick="ga('send', 'event', 'Link', 'Click', 'DL')">
+                        <img alt='Open' class='headerIcon inline-block' src='/images/open-in-browser.svg' />
+                        <span>Demo Launcher</span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="body" class="body">
+          <!--
+            Flash messages allow you to display once-off status messages to users, e.g. form
+            validation errors, success messages, etc
+          -->
+          <!-- The content block should contain the body of your template's content-->
+          <div class="container-fluid">
+  <div class="hero hero--product row heroContainer" style="background-image: url(https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2017_6_6_13_38_Final_Hero_Image_Opc.jpg)">
+    <div class="row hero_information hideOnXs">
+      <div class="container">
+        <div class="col-md-7 col-xs-10 noPadding">
+          <a class="returnToPrevious" href="#"><span class='glyphicon glyphicon-arrow-left'></span> RETURN TO [PREVIOUS]</a>
+          <h1 class="display-3">Omnivise Fleet Management</h1>
+          <h1 class="">Omnivise Fleet Management solutions centrally manage, diagnose and monitor fleet-wide assets and to improve market fleet capacity.</h1>
+        </div>
+      </div>
+    </div>
+    <div class="productBenefits ">
+      <div class="container">
+        <div class="col-sm-4 col-xs-12 text-xs-center margin-xs noPadding hideOnXs">
+            <p class='smallFont bold'>SIEMENS BENEFIT</p>
+              <span class="label label-primary chip chip--benefitSiemens">Asset Optimization</span>
+              <span class="label label-primary chip chip--benefitSiemens">Operations Optimization</span>
+        </div>
+        <div class="col-sm-3 col-xs-12 text-xs-center margin-xs hideOnXs">
+            <p class='smallFont bold'>CUSTOMER DRIVER</p>
+              <span class="label label-primary chip chip--benefitCustomer">Performance</span>
+              <span class="label label-primary chip chip--benefitCustomer">Availability</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="showOnXs">
+    <div class="container">
+      <h1 class='text-primary'>Omnivise Fleet Management</h1>
+      <p class="">Omnivise Fleet Management solutions centrally manage, diagnose and monitor fleet-wide assets and to improve market fleet capacity.</p>
+    </div>
+    <div class="productBenefits">
+      <div class="container">
+          <div class="col-xs-12 margin-xs noPadding">
+              <p class='smallFont bold'>SIEMENS BENEFIT</p>
+                <span class="label label-primary chip chip--benefitSiemens">Asset Optimization</span>
+                <span class="label label-primary chip chip--benefitSiemens">Operations Optimization</span>
+          </div>
+        <div class="col-xs-12 noPadding margin-xs">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="phase row text-xs-center">
+    <div class="container">
+      <div class="phaseRowHeader col-sm-12 noPadding">
+        <div class="col-sm-8">
+          <h1 class="white75Font">Current Phase: <span class="capitalize">Released</span></h1>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-sm-offsett-1 noPadding release-date">
+          
+          
+        </div>
+		
+		
+		<!--div class="phase row text-xs-center"-->
+    <div class="container">
+      <!--div class="phaseRowHeader col-sm-12 noPadding"-->
+        <div class="col-sm-8">
+          <h1 class="white75Font">Current Phase: <span class="capitalize">Released</span></h1>
+        </div>
+        <!--div class="col-sm-4 col-md-3 col-lg-2 col-sm-offsett-1 noPadding release-date"-->
+        </div>
+		
+      </div>
+      <div class="col-md-12 noPadding">
+          <div data-phase="Ideation" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box ">
+              <h3 class="phaseBlock_title" >Ideation</h3>
+            </div>
+          </div>
+          <div data-phase="Incubation" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box ">
+              <h3 class="phaseBlock_title" >Incubation</h3>
+            </div>
+          </div>
+          <div data-phase="Prototype" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box ">
+              <h3 class="phaseBlock_title" >Prototype</h3>
+            </div>
+          </div>
+          <div data-phase="MVP" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box ">
+              <h3 class="phaseBlock_title" style="padding-top: 12px">Min Viable Product</h3>
+            </div>
+          </div>
+          <div data-phase="Pilot" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box ">
+              <h3 class="phaseBlock_title" >Pilot</h3>
+            </div>
+          </div>
+          <div data-phase="Released" class="col-md-2 col-sm-4 col-xs-8 phaseBlock">
+            <div class="phaseBlock_box phaseBlock_box--active phaseBlock_box--selected">
+              <h3 class="phaseBlock_title" >Released</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="Ideation-milestones" class="milestones row hidden">
+    <div class="collapse" data-phase="Ideation" id="milestoneCollapse-Ideation">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Ideation</span></h2>
+          <p class="smallFont">Phase Definition:  Formation of new product/service concepts based on customer engagement, internal subject matter expertise and industry benchmarks.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-Ideation" aria-expanded="false" aria-controls="milestoneCollapse-Ideation">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="Incubation-milestones" class="milestones row hidden">
+    <div class="collapse" data-phase="Incubation" id="milestoneCollapse-Incubation">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Incubation</span></h2>
+          <p class="smallFont">Phase Definition: Validation of technical and commercial viability before moving to Prototype.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-Incubation" aria-expanded="false" aria-controls="milestoneCollapse-Incubation">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="Prototype-milestones" class="milestones row hidden">
+    <div class="collapse" data-phase="Prototype" id="milestoneCollapse-Prototype">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Prototype</span></h2>
+          <p class="smallFont">Phase Definition: Development of a clickable mockup and/or prototype development of the end product.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-Prototype" aria-expanded="false" aria-controls="milestoneCollapse-Prototype">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="MVP-milestones" class="milestones row hidden">
+    <div class="collapse" data-phase="MVP" id="milestoneCollapse-MVP">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Min Viable Product</span></h2>
+          <p class="smallFont">Phase Definition: Production level implementation with functionality that can be released to one or more customers.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-MVP" aria-expanded="false" aria-controls="milestoneCollapse-MVP">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="Pilot-milestones" class="milestones row hidden">
+    <div class="collapse" data-phase="Pilot" id="milestoneCollapse-Pilot">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Pilot</span></h2>
+          <p class="smallFont">Phase Definition: Roll out of production level application for one or more customers.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-Pilot" aria-expanded="false" aria-controls="milestoneCollapse-Pilot">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="Released-milestones" class="milestones row show">
+    <div class="collapse in" data-phase="Released" id="milestoneCollapse-Released">
+      <div class="container milestoneCollapse_inner">
+        <h2>Milestones for <span class="bold capitalize">Released</span></h2>
+          <p class="smallFont">Phase Definition: Fully scaled release to all customers, including sales docs, pricing scheme, standard contracts.</p>
+      </div>
+    </div>
+    <a class="btn btn-primary milestones_btn" role="button" data-toggle="collapse" href="#milestoneCollapse-Released" aria-expanded="true" aria-controls="milestoneCollapse-Released">
+      <div class="container ">
+        <div class="col-xs-10 smallFont bold">
+          <span class='viewMilestones hide'>VIEW PHASE MILESTONES<span class='glyphicon glyphicon-menu-down milestones_icon'></span></span>
+          <span class='hideMilestones'>HIDE PHASE MILESTONES<span class='glyphicon glyphicon-menu-up milestones_icon '></span></span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="productFeatures row">
+    <div class="container col-md-8 col-sm-9">
+      <h1>Leveraging synergies and exploiting asset heterogeneity within the fleet</h1>
+      <p class="productFeatures_text">• Modular design accounts for adaptability and expandability
+  • Separation of data storage, application and visualization layers
+  • User-relevant information according to workflows
+  • Visualization based on data repositories ensures data consistency
+  • Integration of all types of applications ensures smooth processes</p>
+      <h2></h2>
+      <div class="productFeatures_bottom flex-grid">
+          <div class="flex-col productFeatures_features card">
+              <div class="">
+                <img class="featureIcon" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/Features-01.png" alt="Features-01.png">
+              </div>
+            <p class="featureTitle">  Performance Monitoring</p>
+            <p>Increase transparency, track efficiency KPIs and improve risk management</p>
+          </div>
+          <div class="flex-col productFeatures_features card">
+              <div class="">
+                <img class="featureIcon" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/Features-02.png" alt="Features-02.png">
+              </div>
+            <p class="featureTitle"> Asset Diagnostics</p>
+            <p> Increase asset predictability, availability and cut maintenance costs</p>
+          </div>
+          <div class="flex-col productFeatures_features card">
+              <div class="">
+                <img class="featureIcon" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/Features-03.png" alt="Features-03.png">
+              </div>
+            <p class="featureTitle"> Operation Optimization</p>
+            <p> Increase efficiency in day-to-day processes, compile your cost- and revenue-optimized generation mix</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="gallery">
+      <div class="row galleryHero">
+        <div class="container">
+          <div class="col-md-12">
+              <div class="gallery-hero image">
+                  <a href="">
+                    <img class="img-responsive center-block galleryHero_img" src="" alt="" />
+                  </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <hr class="divider--primary" />
+      <div class="row customerEngagement">
+        <h2 class="text-center">Customer Engagement</h2>
+        <div class="customerEngagements">
+          <div class="container flex-grid">
+                <div class="flex-col margin-xs">
+                    <img class="img-responsive center-block customerEngagements_img" src="https://den-prd-fra-pnvg.s3.amazonaws.com/images/uploads/2019_0_21_13_57_SPIC.png" alt="SPIC.png" />
+                </div>
+                <div class="flex-col margin-xs">
+                    <img class="img-responsive center-block customerEngagements_img" src="https://den-prd-fra-pnvg.s3.amazonaws.com/images/uploads/2019_0_21_13_13_Origin-Energy.png" alt="Origin-Energy.png" />
+                </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="data row">
+    <div class="container">
+      <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 data_text noPadding">
+        <h1 class="white75Font">Three modular and scalable fleet analytics bundles reflect the most common applications</h1>
+        <p><p><strong>&nbsp;</strong><strong>Benefits at a glance:</strong></p>
+  <ul>
+  <li>Fleet efficiency:&nbsp; 3 &ndash; 4% <span style="font-size: 18pt; font-family: Wingdings;">&aacute;</span></li>
+  <li>Maintenance costs:&nbsp; 10% <span style="font-size: 18pt; font-family: Wingdings;">&acirc;</span></li>
+  <li>Start-up reliability:&nbsp; <span style="font-size: 18pt; font-family: Wingdings;">&aacute;</span> to 98%</li>
+  <li>
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;">Manual operator action: 80% <span style="font-size: 18pt; font-family: Wingdings;">&acirc;</span></p>
+  </li>
+  </ul></p>
+      </div>
+      
+      <div class="col-md-7 col-md-offset-1 col-xs-10 col-xs-offset-1">
+            <img class="img-responsive center-block galleryHero_img" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2017_9_25_12_20_FleetCenterSolutions.png" alt="FleetCenterSolutions.png" />
+      </div>
+    </div>
+  </div>
+
+    <div class="resources row">
+      <div class="col-lg-6 col-lg-offset-3 col-xs-10 col-xs-offset-1 ">
+        <h1 class="text-center">Resources</h1>
+        <hr class="divider--primary">
+        <div class="">
+            <div class="col-sm-4 margin-xs resource_section">
+              <p class="bold">Internal Sales Information</p>
+                  <a class="resources_link" href="https://www.power-academy.siemens.com/UN/en/product/chapter/98SHRKQ/wbt/98QJAFQ/description.do?hash&#x3D;98acb2597a21c7f4701063f1e21d9a32"><img src="/images/call-made.svg" alt="">WBT - Omnivise Fleet Management</a>
+                  <a class="resources_link" href="https://den-prd-fra-pnvg.s3.amazonaws.com/resources/uploads/Omnivise Fleet Management.pdf"><img src="/images/call-made.svg" alt="">Omnivise Fleet Management</a>
+            </div>
+            <div class="col-sm-4 margin-xs resource_section">
+              <p class="bold">External Marketing Material</p>
+                  <a class="resources_link" href="https://wse02.siemens.com/content/P0002787/marketing_content/Control%20%20Electrical%20Marketing%20library/Forms/Fleet%20Center%20Solutions.aspx"><img src="/images/call-made.svg" alt="">Marketing Material</a>
+                  <a class="resources_link" href="https://den-prd-fra-pnvg.s3.amazonaws.com/resources/uploads/FleetManagement_FR_SPIC  China_en_final_2019.pdf"><img src="/images/call-made.svg" alt="">Fleet Management</a>
+            </div>
+            <div class="col-sm-4 margin-xs resource_section">
+              <p class="bold">Media - Omnivise Fleet Management</p>
+                  <a class="resources_link" href="https://www.power-academy.siemens.com/UN/en/product/chapter/98SHRKQ/wbt/98QJAFQ/description.do?hash&#x3D;98acb2597a21c7f4701063f1e21d9a32"><img src="/images/call-made.svg" alt="">WBT Omnivise Fleet Management </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="productFeatures row">
+  <div class="container col-md-8 col-sm-10">
+    <h1>How can we help?</h1>
+    <p class="productFeatures_text">Please feel free to contact us with questions or feedback</p>
+      <div class="productFeatures_bottom contacts">
+        <div class="col-sm-12 productFeatures_features margin-xs">
+            <img class="img-responsive img-circle" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2017_6_18_17_51_Nickloasd.png" alt="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2017_6_18_17_51_Nickloasd.png">
+          <h2 class="bold">Nicholas Droese</h2>
+          <p class="featureSubtitle">Product Owner, PS CD DI GI FCS </p>
+          <a class="smallFont" href="mailTo:nicolas.droese@siemens.com">nicolas.droese@siemens.com</a>
+          <p class="smallGreyedFont"></p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+    <div class="row testimonials testimonials--darkTheme">
+      <div class="col-xs-12">
+        <div class="col-md-12">
+          <h2>What Our Customers Are Saying</h2>
+          <div class="carousel slide" data-ride="carousel" id="testimonial-carousel" data-interval="false">
+            <!-- Carousel Slides  -->
+            <div class="carousel-inner text-center">
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-md-5 col-sm-6 col-md-offset-1">
+                    <div class="media">
+                      <div class="media-left">
+                          <div class="media-object testimonial_upload">
+                            <img class="img-circle" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2017_7_31_20_41_Origin.png" alt="Origin.png">
+                          </div>
+                      </div>
+                      <div class="media-body">
+                        <p>“The Fleet Center is an investment that has already started to pay for itself. 
+                    It is surpassing all the requirements we set. Our performance now is substantially 
+                    better than we previously experienced.” 
+                    </p>
+                        <p class='testimonials_name'>Jim, Cooley</p>
+                        <p class='testimonials_company'>Origin Energy , Generation Systems Manager</small>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-5 col-sm-6 testimonials_lastOnRow">
+                      <div class="media">
+                        <div class="media-left">
+                            <div class="media-object testimonial_upload">
+                              <img class="img-circle" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/2018_0_25_14_6_spic-new-logo.png" alt="spic-new-logo.png">
+                            </div>
+                        </div>
+                        <div class="media-body">
+                          <p>Digital Power Plant is backed up with Siemen&#x27;s trustworthy expertise and resources in power domain, which makes it very reliable and sustainable now and then.</p>
+                          <p class='testimonials_name'>Hongbiao, Lv</p>
+                          <p class='testimonials_company'>SPIC, Technical Director</small>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </blockquote>
+            </div>
+            </div>
+            <!-- Carousel Buttons Next/Prev -->
+            <a data-slide="prev" href="#testimonial-carousel" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+            <a data-slide="next" href="#testimonial-carousel" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="productsContainer">
+      <div class="row productRow">
+        <div class="container">
+          <div class="col-xs-11 noPadding">
+            <h2>Explore More Products</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row productRow">
+        <div class="container noPadding">
+            <div class="col-sm-6 col-md-3 productCardContainer">
+              <a href="/internal/products/apm" onClick="ga('send', 'event', 'Link', 'Click', 'PL-apm')">
+                <div class="thumbnail productCard productCard--product">
+                  <div class="imageContainer">
+                    <img class="productCard_img" src="/images/dummy-product.png" alt="Product">
+                    <span class="productCard_img_viewProduct">View Product <span class="glyphicon glyphicon-chevron-right"></span></span>
+                  </div>
+                  <div class="caption">
+                    <p class="productCard_title">APM for Power Plants </p>
+                    <p class="productCard_text truncate" data-truncate="80">Filling the gap between data historians and enterprise management systems with lifecycle cost, failure mode and root cause analysis can realize true reliability centered maintenance in your operations.
+            </p>
+                    <span class="label productCard_label">Released</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3 productCardContainer">
+              <a href="/internal/products/asset-monitor" onClick="ga('send', 'event', 'Link', 'Click', 'PL-asset-monitor')">
+                <div class="thumbnail productCard productCard--product">
+                  <div class="imageContainer">
+                    <img class="productCard_img" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/3066-keyvisual-variante1.jpg" alt="Product">
+                    <span class="productCard_img_viewProduct">View Product <span class="glyphicon glyphicon-chevron-right"></span></span>
+                  </div>
+                  <div class="caption">
+                    <p class="productCard_title">Asset Monitor</p>
+                    <p class="productCard_text truncate" data-truncate="80">Asset Monitor is a digital dashboard that provides visualization and bench marking of Key Performance Indicators and operational data that is important for early issue detection</p>
+                    <span class="label productCard_label">Released</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3 productCardContainer">
+              <a href="/internal/products/cyber-security-solutions" onClick="ga('send', 'event', 'Link', 'Click', 'PL-cyber-security-solutions')">
+                <div class="thumbnail productCard productCard--product">
+                  <div class="imageContainer">
+                    <img class="productCard_img" src="https://siemens-product-manager-dev.s3.amazonaws.com/images/uploads/Cyber%20Security%20Solutions_PS_SalesGuide_internal_V1-0.jpg" alt="Product">
+                    <span class="productCard_img_viewProduct">View Product <span class="glyphicon glyphicon-chevron-right"></span></span>
+                  </div>
+                  <div class="caption">
+                    <p class="productCard_title">Cyber Security Solutions</p>
+                    <p class="productCard_text truncate" data-truncate="80">Effective Cyber Security Solutions that safeguard profits and reputation by proactively reducing cyber security risks</p>
+                    <span class="label productCard_label">Released</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-sm-3 col-xs-12">
+            <a href="/internal/products" class="btn viewAll_btn--products btn-viewAll btn-exploreMore col-sm-3 col-xs-12">
+              <span class="pull-left">View All Products</span>
+              <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+            </a>
+              <a href="/internal/initiatives" class="btn viewAll_btn--initiatives btn-viewAll btn-exploreMore col-sm-3 col-xs-12">
+                <span class="pull-left">View All Initiatives</span>
+                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+              </a>
+            <a href="/demos" class="btn btn-demoLauncher btn-viewAll btn-exploreMore col-sm-3 col-xs-12">
+              <span class="pull-left">Demo Launcher</span>
+              <img alt='Open' class='btn-demoLauncher_icon pull-right' src='/images/open-in-browser.svg' />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-9 col-sm-3 col-xs-12 text-right text-xs-center">
+        <span class="smallFont lastUpdated half-opacity">Product was last updated on: Jan 21st, 2019</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+        <div id="footer">
+            <div class="container">
+              <div class="col-xs-12 col-sm-9 footer_links text-xs-center">
+                            <a href="/footer/corporate-info" >Corporate Info</a>
+                            <a href="/footer/privacy-policy" >Privacy Policy</a>
+                            <a href="/footer/cookie-policy" >Cookie Policy</a>
+                            <a href="/footer/terms-of-use" >Terms of Use</a>
+                        
+              </div>
+              <div class="col-xs-12 col-lg-3 text-right text-xs-center copyright-admin-links-section">
+                    <span class="copyright">&copy;Siemens AG, 1996 – 2018</span>
+                <div class="dropup admin-links">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="/cms" class="cms-link" title="login">Admin</a></li>
+                      <li><a href="/home" class="external-link" title="external">Customer Facing View</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery/jquery-1.11.3.min.js"></script>
+    <script src="/js/bootstrap/bootstrap-3.3.5.min.js"></script>
+    <script src='/js/jquery.magnific-popup.min.js'></script>
+    <script src='/js/app.js'></script>
+    
+  </body>
 </html>
